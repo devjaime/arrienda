@@ -125,6 +125,20 @@ export default function Footer() {
             </span>
           </div>
         </div>
+
+        {/* Author */}
+        <div className="mt-6 pt-4 border-t border-gray-800/50 text-center">
+          <p className="text-[11px] text-gray-600">
+            Desarrollado por Jaime Hernandez &middot;{" "}
+            <a href="mailto:hernandez.hs@gmail.com" className="hover:text-gray-400 transition-colors">
+              hernandez.hs@gmail.com
+            </a>{" "}
+            &middot;{" "}
+            <a href="https://wa.me/56949288019" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400 transition-colors">
+              +56 9 4928 8019
+            </a>
+          </p>
+        </div>
       </div>
     </footer>
   );
