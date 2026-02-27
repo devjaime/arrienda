@@ -31,6 +31,9 @@ export default function Navbar() {
             <a href="/comisiones" className="text-sm font-medium text-text-secondary hover:text-primary transition-colors">
               Comisiones
             </a>
+            <a href="/inversion" className="text-sm font-medium text-secondary hover:text-secondary-dark transition-colors">
+              🏠 Invertir
+            </a>
             <a href="/como-funcionan-los-pagos" className="text-sm font-medium text-text-secondary hover:text-primary transition-colors">
               Pagos
             </a>
