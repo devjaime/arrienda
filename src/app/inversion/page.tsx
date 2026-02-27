@@ -255,10 +255,18 @@ export default function InvestmentOpportunities() {
                   
                   <button 
                     onClick={() => handleAnalyze(property)}
-                    className="w-full py-3 bg-emerald-600 text-white rounded-lg font-medium hover:bg-emerald-700 transition-colors"
+                    className="w-full py-3 bg-emerald-600 text-white rounded-lg font-medium hover:bg-emerald-700 transition-colors mb-2"
                   >
                     📊 Análisis Completo
                   </button>
+                  <a 
+                    href={property.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-full py-2 border-2 border-emerald-600 text-emerald-600 rounded-lg font-medium hover:bg-emerald-50 transition-colors block text-center"
+                  >
+                    🔗 Ver en Portal Inmobiliario
+                  </a>
                 </div>
               </motion.div>
             );
